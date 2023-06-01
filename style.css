@@ -171,6 +171,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  column-gap: 20px;
 }
 .section-3-cards .section-3-card h3 i {
   color: #a7cf4b;
