@@ -194,6 +194,24 @@ section {
   width: 100%;
   max-width: 700px;
 }
+.section-5 {
+  justify-content: center;
+  align-items: center;
+  background-image: url("bg-section-2.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-5 .section-5-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+.section-5 .section-5-imgs img {
+  width: 200px;
+}
 footer {
   background-color: #0f63a9;
   padding: 20px;
