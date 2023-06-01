@@ -61,12 +61,21 @@ section {
   align-items: center;
   text-align: center;
 }
+.section-1 .section-1-div h1 {
+  font-size: 35px;
+}
+.section-1 .section-1-div p {
+  font-size: 25px;
+}
 .section-1 .section-1-div button {
   max-width: 500px;
   background-color: green;
   border: none;
-  padding: 10px 30px;
+  padding: 20px;
+  min-width: 300px;
+  justify-content: center;
   border-radius: 20px;
+  font-size: 18px;
   color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
@@ -97,7 +106,7 @@ section {
 .section-2-card {
   background-color: #fff;
   color: #032947;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -105,7 +114,7 @@ section {
   justify-content: center;
   align-items: center;
   row-gap: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: 0px 0px 5px 0px green;
   max-width: 300px;
   min-width: 300px;
   cursor: pointer;
@@ -132,6 +141,7 @@ section {
   border-radius: 30px;
   min-width: 300px;
   cursor: pointer;
+  font-size: 25px;
   transition: 0.5s;
   color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -146,6 +156,7 @@ section {
 .section-3 h1 {
   text-align: center;
   color: green;
+  font-size: 45px;
 }
 .section-3-cards {
   display: flex;
@@ -189,6 +200,7 @@ section {
 }
 .section-imgs h1 {
   color: green;
+  font-size: 45px;
 }
 .section-imgs img {
   width: 100%;
@@ -197,10 +209,15 @@ section {
 .section-5 {
   justify-content: center;
   align-items: center;
-  background-image: url("bg-section-2.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url("bg-section-2.png"); */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: #fff;
+}
+.section-5 h1 {
+  font-size: 45px;
+  color: green;
 }
 .section-5 .section-5-imgs {
   display: flex;
@@ -224,6 +241,8 @@ footer {
 .footer-2 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 .footer-2 {
   border-top: solid 1px #a7cf4b;
@@ -244,7 +263,22 @@ footer {
   column-gap: 10px;
   align-items: center;
 }
+.footer-1 div a i {
+  color: #a7cf4b;
+}
 .footer-3 p {
   text-align: center;
   line-height: 23px;
+}
+
+@media (max-width: 1000px) {
+  .footer-1,
+  .footer-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-1 div {
+    align-items: center;
+  }
 }
