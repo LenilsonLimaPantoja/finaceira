@@ -244,6 +244,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 20px;
+  text-align: center;
 }
 .footer-2 {
   border-top: solid 1px #a7cf4b;
